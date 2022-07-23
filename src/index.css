@@ -1,0 +1,46 @@
+h2, p {
+    margin-top: 2px;
+    
+}
+.App{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px #0005;
+    overflow: hidden;
+    width: 250px;
+    padding: 2em;
+}
+
+.card_img{
+    width: 100%;
+}
+
+.card_container{
+    display: flex;
+    flex-direction: colum;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.card_btn{
+ color: white; 
+ border: 0; 
+ width: 50px; 
+ aspect-ratio: 1;
+ font-size: 2em;
+ border-radius: 50%;
+ cursor: pointer;
+ box-shadow: 0 0 10px #000;
+}
+
+.card_btn:hover{
+    box-shadow: 0 0 5px;
+    
+}
